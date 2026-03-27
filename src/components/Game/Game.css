@@ -1,0 +1,44 @@
+.main-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.transitioning {
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+.image {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+}
+
+.skeleton-tile {
+  width: 200px;
+  height: 200px;
+  background-color: #ccc;
+  border-radius: 4px;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #b3b2b2;
+  }
+  50% {
+    background-color: #ddd;
+  }
+  100% {
+    background-color: #b3b2b2;
+  }
+}

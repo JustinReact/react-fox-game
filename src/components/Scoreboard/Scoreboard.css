@@ -1,0 +1,23 @@
+.button-row {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.score-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.score-table th,
+.score-table td {
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.score-table th {
+  background-color: #f2f2f2;
+  text-align: center;
+}
