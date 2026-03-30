@@ -7,8 +7,6 @@ const shuffleArray = <T>(array: T[]): T[] => {
 const fetchFox = async (): Promise<GameImage> => {
   const response = await fetch("https://randomfox.ca/floof/");
 
-  console.log(response, "fox");
-
   if (!response.ok) {
     throw new Error("Failed to fetch fox image");
   }
