@@ -1,16 +1,19 @@
 # React Fox Game
 
-A fun and interactive fox-themed game built with React.
+A fun and interactive click the fox game built with React, Typescript, CSS and Jest for testing. The game challenges players to click on a fox that appears randomly on the screen within a time limit. The player's score increases with each successful click, and the game ends when the timer runs out.
 
 ## Features
 
-- Engaging gameplay mechanics
-- Responsive design
-- Real-time interactions
+- Fetch fox images from an API, as well as cat and dog images from different APIs
+- Randomly position the fox on the screen
+- Timer-based gameplay
+- Score tracking
+- Images are all displayed at the same time
 
 ## Installation
 
 ```bash
+nvm use 22.12.0
 npm install
 ```
 
